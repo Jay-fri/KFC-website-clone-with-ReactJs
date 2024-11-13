@@ -4,15 +4,32 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: poppins, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .home-background {
   background-image: url("./assets/images/bgimagesec1.png");
   width: 100vw;
   height: 600px;
   background-position: center;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.842);
+  /* background-color: rgba(0, 0, 0, 0); */
 }
 
 .home-mask {
-  background-color: rgba(0, 0, 0, 0.514);
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+.section2-bg {
+  background-image: url("./assets/images/3chickenbuckets.png");
+  width: 100vw;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
