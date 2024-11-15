@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../components/NavBar";
 import firstlogo from "../assets/images/firstlogo.png";
 import secondlogo from "../assets/images/second.png";
 import thirdlogo from "../assets/images/thirdlogo.png";
@@ -79,6 +78,47 @@ const Home = () => {
             seasoned with Green Chili and Garlic, and topped with Rogini, an
             onion-tomato gravy.
           </p>
+        </div>
+      </section>
+
+      <section className=" w-[100vw] h-[500px] flex text-white font-poppins">
+        <div className="section3-bg1 relative">
+          <div className="section3-mask w-[100%] h-[100%] "></div>
+          <div className="flex flex-col gap-[20px] items-center justify-center absolute top-[170px]">
+            <p className="font-[700] text-[2.5rem] m-0">COMPANY</p>
+            <p className="font-[600] text-[1rem] w-[70%] text-center m-0">
+              We're in the chicken business, but we're also in the people
+              business.
+            </p>
+            <button className="bg-[#fd3232] p-[10px] rounded-[17px] font-[600] text-[0.9rem] hover:bg-[#c93636] transition-all">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div className="section3-bg2 relative">
+          <div className="section3-mask w-[100%] h-[100%]"></div>
+          <div className="flex flex-col gap-[20px] items-center justify-center absolute top-[170px]">
+            <p className="font-[700] text-[2.5rem] m-0">BRAND IMPACT</p>
+            <p className="font-[600] text-[1rem] w-[70%] text-center m-0">
+              From kitchens to communities, we're committed to doing things the
+              right way.
+            </p>
+            <button className="bg-[#fd3232] p-[10px] rounded-[17px] font-[600] text-[0.9rem] hover:bg-[#c93636] transition-all">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div className="section3-bg3 relative">
+          <div className="section3-mask w-[100%] h-[100%]"></div>
+          <div className="flex flex-col gap-[20px] items-center justify-center absolute top-[170px]">
+            <p className="font-[700] text-[2.5rem] m-0">CAREERS</p>
+            <p className="font-[600] text-[1rem] w-[70%] text-center m-0">
+              Original recipe? Yes. Original careers? We've got those, too.
+            </p>
+            <button className="bg-[#fd3232] p-[10px] rounded-[17px] font-[600] text-[0.9rem] hover:bg-[#c93636] transition-all">
+              Learn More
+            </button>
+          </div>
         </div>
       </section>
     </div>

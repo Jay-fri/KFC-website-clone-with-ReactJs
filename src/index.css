@@ -33,3 +33,34 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.section3-bg1 {
+  background-image: url("./assets/images/company.png");
+  width: 34vw;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section3-bg2 {
+  background-image: url("./assets/images/kitchenimage.png");
+  width: 34vw;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section3-bg3 {
+  background-image: url("./assets/images/career.png");
+  width: 34vw;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section3-mask {
+  background-color: rgba(0, 0, 0, 0.548);
+}
