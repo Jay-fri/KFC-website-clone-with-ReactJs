@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="flex justify-between w-[100%] h-[60px] bg-white p-[40px] items-center fixed z-[100] top-0">
+    <nav className="flex justify-between w-[100%] h-[60px] bg-white/70 backdrop-blur-md p-[40px] items-center fixed z-[100] top-0">
       <div className="w-fit">
         <svg
           className="w-[150px] p-3"
@@ -39,7 +39,7 @@ const NavBar = () => {
       </div>
       <div className="w-fit relative ">
         <input
-          className="w-[200px] border-[2px] border-black h-[50px] rounded-[25px] pl-[15px] pr-[41px] font-poppins text-[1rem] font-[500]"
+          className=" bg-transparent placeholder:text-black placeholder:font-[600] active:border-black w-[200px] border-[2px] border-black h-[50px] rounded-[25px] pl-[15px] pr-[41px] font-poppins text-[1rem] font-[500]"
           type="text"
           placeholder="Search"
         />
